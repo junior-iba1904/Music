@@ -28,7 +28,6 @@ body {
   top: 20%;
   transform: translate(-50%, -50%);
   color: #65e6cc;
-  font-size: 50px;
 }
 
 .texto span {
@@ -55,6 +54,21 @@ body {
   filter: blur(30px);
   transform: rotateX(50deg);
 }
+
+@media(max-width: 1000px){
+
+  .texto span{
+    font-size: 30px;
+  }
+}
+
+@media(max-width: 500px){
+
+  .texto span{
+    font-size: 20px;
+  }
+}
+
 .texto span:hover {
   filter: contrast(250%);
 }
